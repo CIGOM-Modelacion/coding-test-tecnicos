@@ -1,4 +1,4 @@
-# Coding Test puesto modelación numérica CIGOM
+# Coding Test técnico modelación numérica CIGOM
 
 ## Tarea: 
 
