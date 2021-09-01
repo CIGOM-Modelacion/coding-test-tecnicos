@@ -59,7 +59,7 @@ convención de metadatos *CF*, el candidato puede utilizar alguna de las herrami
 
 Se valorará que la solución se presente a manera de un script que pueda ser reutilizado para la 
 descarga de pronósticos diarios, y que se documente la forma de utilizarlo.  El candidato es libre de
-utilizar el lenguaje de scripting que el prefiera Ej. bash, python, perl, etc. 
+utilizar el lenguaje de scripting que el prefiera Ej. bash, batch, python, perl, etc. 
 
 Enviar su solución al correo hmedrano @ cicese.mx
 
@@ -78,6 +78,5 @@ Referencias:
 - https://unidata.github.io/netcdf4-python/
 - https://www.opendap.org/support/OPeNDAP-clients
 - https://ferret.pmel.noaa.gov/Ferret/
-- 
 
 
