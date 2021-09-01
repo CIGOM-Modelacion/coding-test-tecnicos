@@ -5,9 +5,9 @@
 El objetivo de esta tarea es ofrecer de una estrategia para la descarga de los datos mas recientes
 del modelo numérico operacional [NCOM](https://www.ncei.noaa.gov/products/weather-climate-models/fnmoc-regional-navy-coastal-ocean) región *American Seas*, que produce diariamente un pronostico de 5 días de 
 condiciones físicas del océano.
-Estos datos se utilizaran para alimentar al modelo numérico de simulación de derrames de petróleo,
-del modelo NCOM solo se requieren descargar los datos de las variables 3D que contienen los componentes del 
-vector de velocidad de corrientes. En el conjunto de datos las encuentran por los nombres:
+
+Estos datos se utilizaran para alimentar al modelo numérico de simulación de derrames de petróleo.
+De este modelo NCOM solo se requieren descargar los datos en formato [netCDF](https://www.unidata.ucar.edu/software/netcdf/) de las variables 3D que contienen los componentes del vector de velocidad de corrientes. En el conjunto de datos las encuentran por los nombres:
 
 - water_u  (El componente u de los vectores de velocidad)
 - water_v  (El componente v de los vectores de velocidad)
@@ -39,8 +39,9 @@ Para la variable *water_v*
  - standard_name = 'y_sea_water_velocity'
 
 
+
 Al candidato se le solicita, defina una estrategia para descargar el ultimo pronostico del modelo NCOM 
-la región American Seas, estos datos están disponibles en un servidor [Thredds](https://www.unidata.ucar.edu/software/tds/current/) en la siguiente ruta:
+la región American Seas, estos datos están disponibles en un servidor de datos tipo [Thredds](https://www.unidata.ucar.edu/software/tds/current/) en la siguiente ruta:
 
 https://www.ncei.noaa.gov/thredds-coastal/catalog/amseas/amseas_20201218_to_current/catalog.html
 
