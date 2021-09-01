@@ -65,7 +65,7 @@ utilizar el lenguaje de scripting que el prefiera Ej. bash, batch, python, perl,
 Enviar su solución al correo hmedrano @ cicese.mx
 
 
-Referencias:
+Links de apoyo:
 
 
 - https://www.ncei.noaa.gov/products/weather-climate-models/fnmoc-regional-navy-coastal-ocean
