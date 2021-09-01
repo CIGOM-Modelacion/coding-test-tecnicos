@@ -12,7 +12,7 @@ De este modelo NCOM solo se requieren descargar los datos en formato [netCDF](ht
 - water_u  (El componente u de los vectores de velocidad)
 - water_v  (El componente v de los vectores de velocidad)
 
-Los datos que se descarguen se deben de complementar agregando algunos atributos asociados a sus variables, con el 
+Los datos que se descarguen se deben de complementar agregando algunos [atributos asociados a sus variables](https://www.unidata.ucar.edu/software/netcdf/documentation/NUG/netcdf_data_set_components.html#variables), con el 
 objetivo de que cumplan con la convención de metadatos [Climate & Forecast v1.8](https://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html) (CF), esto es importante para que futuras herramientas
 que utilizemos "reconozcan" y sepan a que se refieren estos datos.
 En especifico hay que agregar lo siguiente:
