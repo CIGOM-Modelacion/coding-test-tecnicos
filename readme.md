@@ -1,11 +1,11 @@
-# Coding Test puesto modelación numerica CIGOM
+# Coding Test puesto modelación numérica CIGOM
 
 ## Tarea: 
 
 El objetivo de esta tarea es ofrecer de una estrategia para la descarga de los datos mas recientes
-del modelo numerico operacional (NCOM)[https://www.ncei.noaa.gov/products/weather-climate-models/fnmoc-regional-navy-coastal-ocean] región *American Seas*, que produce diariamente un pronostico de 5 dias de 
-condiciones fisicas del oceano.
-Estos datos se utilizaran para alimentar al modelo numerico de simulación de derrames de petroleo,
+del modelo numérico operacional (NCOM)[https://www.ncei.noaa.gov/products/weather-climate-models/fnmoc-regional-navy-coastal-ocean] región *American Seas*, que produce diariamente un pronostico de 5 días de 
+condiciones físicas del océano.
+Estos datos se utilizaran para alimentar al modelo numérico de simulación de derrames de petróleo,
 del modelo NCOM solo se requieren descargar los datos de las variables 3D que contienen los componentes del 
 vector de velocidad de corrientes. En el conjunto de datos las encuentran por los nombres:
 
@@ -40,11 +40,11 @@ Para la variable *water_v*
 
 
 Al candidato se le solicita, defina una estrategia para descargar el ultimo pronostico del modelo NCOM 
-la region American Seas, estos datos estan disponibles en un servidor (thredds)[https://www.unidata.ucar.edu/software/tds/current/] en la siguiente ruta:
+la región American Seas, estos datos están disponibles en un servidor (thredds)[https://www.unidata.ucar.edu/software/tds/current/] en la siguiente ruta:
 
 https://www.ncei.noaa.gov/thredds-coastal/catalog/amseas/amseas_20201218_to_current/catalog.html
 
-La solución ideal es descargar solo las variables de interes, y de esta forma reducir el tamaño de los
+La solución ideal es descargar solo las variables de interés, y de esta forma reducir el tamaño de los
 datos que se descargaran. Para lo anterior, se recomiendan utilizar alguna de las siguientes
 herramientas que utilizan el protocolo (OPENDAP)[https://earthdata.nasa.gov/collaborate/open-data-services-and-software/api/opendap] para la descarga de subconjuntos:
 
@@ -55,10 +55,10 @@ herramientas que utilizan el protocolo (OPENDAP)[https://earthdata.nasa.gov/coll
 - Otra que decida el candidato.
 
 De igual forma para agregar a los datos descargados los atributos necesarios para cumplir con la 
-convencion de metadatos *CF*, el candidato puede utilizar alguna de las herramientas arriba mencionadas.
+convención de metadatos *CF*, el candidato puede utilizar alguna de las herramientas arriba mencionadas.
 
-Se valorara que la solución se presente a manera de un script que pueda ser reutilizado para la 
-descarga de pronosticos diarios, y que se documente la forma de utilizarlo.  El candidato es libre de
+Se valorará que la solución se presente a manera de un script que pueda ser reutilizado para la 
+descarga de pronósticos diarios, y que se documente la forma de utilizarlo.  El candidato es libre de
 utilizar el lenguaje de scripting que el prefiera Ej. bash, python, perl, etc. 
 
 Enviar su solución al correo hmedrano @ cicese.mx
